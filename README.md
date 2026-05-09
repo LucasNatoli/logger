@@ -1,5 +1,9 @@
 # logger
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/LucasNatoli/logger?logo=typescript&logoColor=%233178C6) ![GitHub last commit](https://img.shields.io/github/last-commit/LucasNatoli/logger)  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/LucasNatoli/logger)
+![GitHub License](https://img.shields.io/github/license/LucasNatoli/logger)
+---
+
 Basic utility class to log processes messages to info, warning and error files.
 
 Use this class to write event and process messages according to their severity level:
@@ -66,3 +70,4 @@ The above example will output the following files:
 ````
 1777913130978 [app-start] Can't connect to DB.
 ````
+
