@@ -1,0 +1,46 @@
+{
+  "name": "@lucas-natoli/logger",
+  "version": "1.0.0",
+  "description": "Basic utility class to log processes messages to info, warning and error files.",
+  "keywords": [
+    "logs",
+    "typescript",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/LucasNatoli/logger#readme",
+  "bugs": {
+    "url": "https://github.com/LucasNatoli/logger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasNatoli/logger.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "author": "Lucas Natoli",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "node --test",
+    "prepublishOnly": "npm run build"
+  }
+}
